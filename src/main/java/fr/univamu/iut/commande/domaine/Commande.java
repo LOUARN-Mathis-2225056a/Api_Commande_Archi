@@ -37,6 +37,9 @@ public class Commande {
     public int getIdCommande() {
         return idCommande;
     }
+    public String getStringIDCommande(){
+        return ""+idCommande;
+    }
 
     public void setIdCommande(int idCommande) {
         this.idCommande = idCommande;
@@ -82,7 +85,7 @@ public class Commande {
         this.dateDeLivraison = dateDeLivraison;
     }
 
-    public Object getContenu() {
+    public JsonArray getContenu() {
         return contenu;
     }
 
